@@ -29,6 +29,7 @@
 					editable: false
 				});
 				$("#doctor_password_edit").val(doctor.password);
+				$("#doctor_absent_edit").val(doctor.absentDates);
 				$("#doctor_departmentObj_departmentId_edit").combobox({
 					url:"Department/listAll",
 					valueField:"departmentId",

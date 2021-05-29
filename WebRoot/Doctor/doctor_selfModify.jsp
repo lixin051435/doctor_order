@@ -57,6 +57,14 @@
 
 		</div>
 		<div>
+			<span class="label">不值班日期:</span>
+			<span class="inputControl">
+				<input class="textbox" type="text" id="doctor_absent_edit" name="absentDates" style="width:500px" placeholder="使用英文逗号分割，如2021-03-24,2021-05-07"/>
+
+			</span>
+
+		</div>
+		<div>
 			<span class="label">医生职位:</span>
 			<span class="inputControl">
 				<input class="textbox" type="text" id="doctor_position_edit" name="doctor.position" style="width:200px" />
